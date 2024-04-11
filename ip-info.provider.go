@@ -34,7 +34,7 @@ func parseIPInfoResponse(resp *http.Response, err error) (IPInfo, error) {
 		return result, err
 	}
 
-	// Convert ipApiResponse to IPInfo
+	// Convert ipInfoResponse to IPInfo
 	result = convertApiResponseToIpInfo(apiResult)
 
 	return result, nil
