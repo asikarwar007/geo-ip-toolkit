@@ -29,7 +29,7 @@ cd geo-ip-toolkit
 
 3. **Load environment variables (ensure you have a .env file with the necessary API tokens):**
 ```bash
-source .env
+cp .env.example .env
 ```
 
 4. **Run the project:**
